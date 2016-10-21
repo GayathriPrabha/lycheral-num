@@ -17,6 +17,10 @@ void lycheral()
             revans=reverse(ans);
             num=ans;
             ctr++;
+            if(ctr=50)
+            {
+                break;
+            }
     }while(revans!=ans);
     if(ctr>=50)
     {
